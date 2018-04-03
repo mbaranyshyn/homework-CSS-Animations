@@ -44,7 +44,7 @@ main {
     border-radius: 7px;
     cursor: pointer;
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, .06) 100ms;
-    transition: cubic-bezier(0.42, 0, 1, 1);
+    transition: 0.3s cubic-bezier(0.42, 0, 1, 1);
 }
 
 .number {
@@ -55,12 +55,14 @@ main {
 }
 
 .info h2 {
-    font-size: 18px;
+    font-size: 15px;
     color: #ca5c24;
     text-transform: uppercase;
     line-height: 2em;
     padding: 10px 5px;
+    padding-left: 20px;
     letter-spacing: 2px;
+    text-align: left;
 }
 
 .info p {
@@ -69,9 +71,10 @@ main {
     height: 1.5em;
     font-weight: 350;
     padding-bottom: 60px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
     letter-spacing: 1px;
+    text-align: left;
 }
 
 .info:last-child {
