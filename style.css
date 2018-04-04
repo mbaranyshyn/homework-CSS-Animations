@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .clearfix:after {
@@ -12,8 +13,7 @@ body {
 }
 
 .header {
-    padding-bottom: 50px;
-    padding-top: 40px;
+    padding: 50px 0 50px 80px;
 }
 
 main {
@@ -23,10 +23,8 @@ main {
 
 .title {
     display: block;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
     font-size: 25px;
-    padding-left: 100px;
     font-weight: bold;
     line-height: 1.5em;
     color: #52545e;
@@ -82,11 +80,11 @@ main {
 }
 
 .info:nth-child(2) {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .info:hover {
     transform: translateY(-10px);
-    transition-duration: 0.5s;
+    transition-duration: 0.2s;
     box-shadow: 0 3px 25px 0 rgba(0, 0, 0, .1);
 }
